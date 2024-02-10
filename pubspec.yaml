@@ -1,0 +1,44 @@
+name: ups
+description: A new Flutter project
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Updated Dart SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.7.2 # Updated video_player version
+  cupertino_icons: ^1.0.2
+  dio: ^5.3.4
+  flutter_custom_selector: ^0.0.3
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.3.2 # Updated flutter_native_splash version
+  flutter_svg: ^2.0.7
+  dropdown_button2: ^2.3.9
+  image_picker: ^0.8.4
+  http: ^0.13.3
+  multi_select_search: ^0.0.3
+  multiselect_formfield: ^0.1.7
+  file_picker: ^5.0.0
+  flutter_linkify: ^6.0.0
+  multi_select_flutter: ^4.0.0
+  url_launcher: ^6.0.6
+  flutter_typeahead: ^4.0.0
+  intl: ^0.17.0
+ 
+
+
+
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
